@@ -1,0 +1,37 @@
+h1 {
+    font: 55px;
+    font-family: papyrus;
+    color: rgb(8, 1, 21);
+    text-align: center;
+    background-color: antiquewhite;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: papyrus;
+    font: 32px;
+    
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.description {
+    font-weight: bold;
+}
+
+.price {
+    font-weight: bold;
+}
+.quantity {
+    font-weight: bold;
+}

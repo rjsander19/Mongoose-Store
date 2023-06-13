@@ -1,0 +1,28 @@
+h1 {
+    font: 56px;
+    font-family: papyrus;
+    color: rgb(8, 1, 21);
+    text-align: center;
+    background-color: antiquewhite;
+    font-weight: bold;
+}
+
+.container {
+    display: flexbox
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    max-width: 33%;
+  }
+  
+  .name {
+    font-weight: bold;
+    font-family: papyrus;
+    font-size: 28px;
+    border: 1px dashed #050000;
+    margin: 5px;
+  }
+  
+  img {
+    height: 80px;
+    width: 80px;
+  }
